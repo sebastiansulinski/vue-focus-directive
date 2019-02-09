@@ -1,9 +1,11 @@
 import Vue from 'vue'
 
-export default Vue.directive('focus', {
+export const FocusDirective = {
     inserted: (element, binding) => {
         if (binding.value === true) {
             element.focus();
         }
     }
-})
+};
+
+Vue.directive('focus', FocusDirective);
