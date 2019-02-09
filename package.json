@@ -1,6 +1,11 @@
 {
   "name": "@ssdcode/vue-focus-directive",
   "version": "0.1.0",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/sebastiansulinski/vue-focus-directive.git"
+  },
+  "homepage": "https://github.com/sebastiansulinski/vue-focus-directive#readme",
   "main": "./dist/vue-focus-directive.common.js",
   "files": [
     "dist/*",
