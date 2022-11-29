@@ -21,18 +21,6 @@
     "build": "vue-cli-service build --target lib --name vue-focus-directive ./src/vue-focus-directive.js",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "vue": "^2.6.12"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^5.0.8",
-    "@vue/cli-plugin-eslint": "^5.0.8",
-    "@vue/cli-service": "^5.0.8",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.26.0",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.12"
-  },
   "eslintConfig": {
     "root": true,
     "env": {
@@ -42,10 +30,7 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
+    "rules": {}
   },
   "postcss": {
     "plugins": {
@@ -56,5 +41,16 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "dependencies": {
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "eslint": "^8.28.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "vue-template-compiler": "^2.7.14"
+  }
 }
